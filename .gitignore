@@ -1,0 +1,97 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log
+
+# macOS system files
+.DS_Store
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.iml
+
+# React Native build files
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+android/local.properties
+android/app/.cxx/
+android/app/src/debug/
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/jniLibs/
+android/gradle.properties
+android/keystore/
+
+ios/Pods/
+ios/build/
+ios/.DS_Store
+ios/.swiftpm/
+ios/.vscode/
+ios/.xcworkspacedata
+ios/DerivedData/
+ios/.idea/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcworkspace/xcuserdata/
+
+# React Native cache
+metro-cache/
+*.expo/
+.expo/
+.expo-shared/
+
+# Temporary files
+tmp/
+temp/
+dist/
+coverage/
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Firebase/Google Services (avoid committing private API keys)
+android/app/google-services.json
+ios/GoogleService-Info.plist
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots/
+fastlane/test_output/
+
+# Jest test cache
+jest-cache/
+jest-stare/
+
+# ESLint cache
+.eslintcache
+
+# Babel cache
+.babelrc
+.babelrc.js
+.babelrc.json
+.babelrc.cjs
+.babel.cache.json
+
+# React Native Xcode-specific files
+ios/.expo/project.xcworkspace/
+
+# Miscellaneous
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+*.pem
