@@ -3,13 +3,10 @@ import './global.css';
 
 import { SafeAreaView, Text } from 'react-native';
 import React from 'react';
-import env from './src/config/env';
 
 const App: React.FC = () => {
-  console.log(env.API_KEY);
-
   return (
-    <SafeAreaView className="flex-1 flex-row justify-center items-center bg-blue-400">
+    <SafeAreaView className="flex-1 justify-center items-center bg-primary-light">
       <Text>Test App</Text>
     </SafeAreaView>
   );
